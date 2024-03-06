@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Daily Tasks</string>
+
+    <string name="add_new_task">Add Task</string>
+    <string name="click_to_add_new_task">Click to Add a new Task</string>
+    <string name="back_action_button">Back Action Button</string>
+    <string name="search_button">Search Button</string>
+    <string name="delete_button">Delete task button</string>
+    <string name="done_button">Done button</string>
+    <string name="edit_button">Edit task button</string>
+</resources>
