@@ -10,7 +10,9 @@ import com.github.filipebezerra.apps.dailytasks.presentation.viewmodel.newtask.N
 import com.github.filipebezerra.apps.dailytasks.presentation.viewmodel.taskdetail.TaskDetailViewModel
 import com.github.filipebezerra.apps.dailytasks.presentation.viewmodel.tasks.TasksViewModel
 import com.github.filipebezerra.apps.dailytasks.presentation.viewmodel.topappbar.TopAppBarViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private val topAppBarViewModel: TopAppBarViewModel by viewModels()

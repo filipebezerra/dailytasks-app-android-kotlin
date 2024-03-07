@@ -29,7 +29,7 @@ fun NewTaskScreen(
         InputTextField(
             content = screenState.title,
             handleContentChangeHandler = {
-                
+                 newTaskViewModel.updateTitle(it)
             },
             label = "Task title",
             imeAction = ImeAction.Next,
@@ -38,7 +38,7 @@ fun NewTaskScreen(
         InputTextField(
             content = screenState.description,
             handleContentChangeHandler = {
-
+                 newTaskViewModel.updateDescription(it)
             },
             label = "Description",
             imeAction = ImeAction.Done,

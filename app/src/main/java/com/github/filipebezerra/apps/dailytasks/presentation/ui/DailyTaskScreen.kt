@@ -39,7 +39,7 @@ fun DailyTasksScreen(
                  topAppBarViewModel = topAppBarViewModel,
                  navHostController = navHostController,
                  handleNewTaskSubmitListener = {
-
+                     newTaskViewModel.handleSaveNewTask()
                  }
              )
         },
